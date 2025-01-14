@@ -1,0 +1,16 @@
+{
+  "name": "mydashboard",
+  "version": "1.0.0",
+  "description": "personal use dashboard (in development)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^15.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
