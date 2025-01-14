@@ -4,7 +4,9 @@
   "description": "personal use dashboard (in development)",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +14,8 @@
     "next": "^15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
   }
 }
